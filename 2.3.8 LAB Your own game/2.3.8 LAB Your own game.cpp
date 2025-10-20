@@ -94,7 +94,7 @@ bool Board::IsFull()
     return true;
 }
 
-// ---------------------- PLAYER CLASS ----------------------
+// PLAYER CLASS 
 
 class Player
 {
@@ -133,7 +133,7 @@ int Player::MakeMove()
     return position;
 }
 
-// ---------------------- GAME CLASS ----------------------
+//  GAME CLASS 
 
 class Game
 {
@@ -222,7 +222,7 @@ void Game::Play()
     }
 }
 
-// ---------------------- MAIN ----------------------
+//MAIN 
 
 int main()
 {
